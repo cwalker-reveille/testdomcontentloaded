@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        document.addEventListener("DOMContentLoaded", (e) => {
+            const ele = document.createElement('link');
+            ele.type = 'text/css';
+            ele.rel = 'stylesheet';
+            ele['href'] = '/nonexisting.css';
+            document['head'].appendChild(ele);
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
